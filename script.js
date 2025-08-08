@@ -110,6 +110,7 @@ productItems.forEach((item, index) => {
       article.remove();
       quantityControls.classList.add("active");
       item.currentItem = null;
+      quantity.textContent = 1;
       updateCartCountAfterRemove();
       updateTotal();
     });
